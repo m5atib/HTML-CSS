@@ -1,0 +1,33 @@
+body {
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/bg.png");
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.box{
+	width: 210px;
+	height: 210px;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 105px;
+	
+	transition: .9s;
+}
+
+.menu {
+	padding: 10px;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	border: 3px;
+	border-color: red; 
+}
+/*--------------------------------------------------------------------------*/

@@ -1,0 +1,23 @@
+.box {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	transition: .35s;
+	
+	width: 150px;
+	height: 150px; 
+	background-color:#273c75;
+border-radius: 25px;
+
+
+
+}
+.box:hover {
+	background:linear-gradient (to left,#8c7ae6,#8c7ae6,#dcdde1);
+	
+	
+	
+}

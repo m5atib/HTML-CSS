@@ -1,0 +1,99 @@
+body {
+	
+	background-color: #f5f6fa;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+
+}
+/*background-clip:;border-box|padding-box|content-box|initial|inherit*/
+.box {
+	width: 1000px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+	font-family: tahoma;
+
+	
+}
+
+
+.box1{
+	width: 55%;
+	height: 100%;
+	background-image: url("img/cartoon.png");
+	background-size: cover ;
+	border-radius: 35px;
+	float: left;
+	background-color: white;
+	position: absolute;
+}
+.box2{
+	width: 40%;
+	height: 90%;
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 50%;
+	margin-top: 20px;
+	box-shadow: 2px 2px 50px grey;
+	text-align: center;
+
+	transition: 1s;
+}
+
+.list {
+	position: absolute;
+
+
+}
+ul {
+	list-style: none;
+position: absolute;
+
+}
+li {
+	display: inline-block;
+	position: absolute;
+}
+li a:hover {
+	color: black;
+	text-shadow: 1px ; 
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+
+
+
+h2  {
+	padding-top:  30px;
+}
+h3 {
+	font-size: 12px;
+	margin-top: -15px;
+}
+.boxfollow
+{
+	padding-left: 50px;
+}
+	h4 , h5 , h6 {
+	display: inline-block;
+	margin-left: 10px; 
+	font-size: 14px;
+	float: left;
+	
+}
+button {
+	background: none;
+	padding: 10px;
+	width: 200px;
+	margin-top: 20px;
+	border-radius: 15px;
+	background-color: #421f24;
+	border: 0;
+	color: white;
+}
